@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto Slab';
+  font-size: 1.5rem;
+  font-weight: 300;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px;
+}
+div#contact_form {
+  width: 800px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  padding: 10px;
+}
+div.input-box {
+  display: flex;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  position: relative;
+}
+div.input-box label {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  width: 20%;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+div.input-box input {
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  flex: 1;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+div.input-box input:focus {
+  border-color: #1abc9c;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+input.button {
+  font-size: 1.5rem;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 4px 40px;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+input.button:hover {
+  background-color: #2dbc1a;
+  border-color: #031a06;
+  color: #fff;
+}
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: 'Passion One';
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 0.8;
+  font-weight: bold;
+}
+p{
+  color: white;
+  font-weight: bold;
+}
+div.greetings {
+  text-align: center;
+  font-size: 1.2rem;
+  background-image: url(spongebob1.gif);
+}
+div.input-box input.error {
+    border: 2px dashed red;
+    background: #fee;
+}
+div.input-box label.error {
+    color: red;
+    font-size: 1rem;
+    text-align: right;
+    width: 100%;
+    margin: 10px 0;
+}
